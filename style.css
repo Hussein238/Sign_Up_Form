@@ -1,0 +1,144 @@
+html{
+    font-family: 'Roboto', sans-serif;
+  
+}
+html,body{
+    margin: 0;
+}
+#container{
+    display:flex;
+   
+   
+   
+}
+ .imgContain{
+position: relative;
+height: fit-content;
+} 
+img{
+  object-fit: cover; 
+  width:40vw;
+  height:100vh;
+}
+#credit{
+    position:absolute;
+  left: 30%;
+    bottom: 5%;
+ padding: 0px;
+ margin: 0px;
+color: aliceblue;
+}
+#sideHero{
+position: absolute;
+top: 33%;
+color: azure;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 8px;
+width:100%;
+background-color: #2369ec7e;
+font-size: xx-large;
+font-weight: bolder;
+color: #ffffff;
+}
+#heroImg{
+    height: 8rem;
+    width: auto;
+}
+
+
+#textContainer{
+display: flex;
+flex-direction: column;
+ 
+}
+
+#pitch{
+    font-size: x-large;
+    padding: 12% 8% 2%;
+   
+    background-color: rgb(210, 223, 255);
+    
+}
+
+p{
+  
+    min-width: 40ch;
+    
+}
+form>h1{
+    
+    font-weight: 125;
+    padding-left: 8%;
+    margin-bottom: 0%;
+}
+
+input{
+font-size: large;
+}
+form{
+    box-shadow: 0px 8px 10px rgb(0, 0, 0, 0.4);
+}
+.input{
+    display: flex;
+    width: 300px;
+   font-size:larger;
+    flex-direction: column;
+    
+}
+
+#formContent{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 4% 8%;
+}
+
+input:focus{
+    outline: none; 
+    border: 3px solid #5388b3;
+}
+
+input:invalid:not(:focus):not(:placeholder-shown){
+    border: 3px solid red;
+}
+input:valid:not(:focus):not(:placeholder-shown){
+    border: 3px solid green;
+}
+
+.createAccount{
+    padding: 8%;
+    padding-bottom: 0%;
+}
+
+#submitBtn{
+    font-size: larger;
+   padding: 16px 24px;
+   border-radius: 10px;
+   outline: none;
+   border: 3px solid #2369ec;
+   color: #2369ec;
+  font-weight: bold;
+}
+#submitBtn:hover{
+    background-color:#2369ec;
+    transition: 0.5s;
+    color: white;
+    font-weight: bold;
+}
+
+#accountTxt{
+    padding: 8% 0;
+    padding-bottom: 4%;
+}
+
+#logTxt{
+    font-weight: bold;
+text-decoration: none;
+color: #2369ec;
+}
+#logTxt:hover{
+    text-decoration-line: underline;
+    transition: 1s;
+}

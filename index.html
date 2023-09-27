@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>Sign-up Today!</title>
+</head>
+<body>
+    <div id="container"> 
+        <div class="imgContain" id="textImg" >
+        <img src="/mohammad-rahmani-yRsBZJuhbkk-unsplash.jpg"> 
+        <div id="sideHero">
+            <img id="heroImg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="React-icon">
+            <span id="heroTxt">SITESHIFTER</span>
+        </div>
+        <div id="credit"> Photo by <a href="https://unsplash.com/@afgprogrammer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mohammad Rahmani</a> on <a href="https://unsplash.com/photos/yRsBZJuhbkk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </div>
+  
+    </div> 
+
+    <div id="textContainer">
+          <div id="pitch">  <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started. <br><br> You know you want to.</p>
+          </div>
+          
+            <form id="signUpForm" action="#">
+                <h1>Let's do this!</h1>
+                <div id="formContent">
+                <div class="input">
+                    <label for="firstName"><span aria-label="*">* FIRST NAME:</span></label>
+                    <input  type="text" id="firstName" name="firstName" required placeholder="Bobby" required>
+                </div>
+                 <div class="input">
+                    <label for="lastName"><span >LAST NAME:</span></label>
+                    <input type="text" id="lastName" name="lastName"  placeholder="Doe">
+                </div>
+                <div class="input">
+                    <label for="email"><span aria-label="*">*EMAIL:</span></label>
+                    <input type="email" id="email" name="email" required placeholder="example@mail.com">
+                </div>
+                <div class="input">
+                    <label for="phone"><span>PHONE NUMBER:</span></label>
+                    <input type="tel" id="phone" name="phone" placeholder="1231231234" pattern="[0-9]{10}">
+                </div>
+                <div class="input">
+                    <label for="password"><span aria-label="*">*PASSWORD:</span></label>
+                    <input type="password" id="password" name="password"  placeholder="CleverPass123!" required>
+                </div>
+                <div class="input">
+                    <label for="confirmPass"><span aria-label="*">*CONFIRM PASSWORD:</span></label>
+                    <input type="password" id="confirmPass" name="confirmPass" placeholder="CleverPass123!" title="Passwords must match" required>
+                </div>
+            </div>
+            </form>
+
+            <div class="createAccount">
+            <button type="submit" id="submitBtn" form="signUpForm">Create account!</button>
+            <div id="accountTxt">Already have an account? <a id="logTxt" href="#">Log in</a></div>
+            </div>
+    </div>
+    </div> 
+
+    <script src="script.js"></script>
+</body>
+</html>
